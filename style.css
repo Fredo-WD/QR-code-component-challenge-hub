@@ -12,7 +12,7 @@
 
 html, body {
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     height: 100vh;
     width: 100vw;
     background-color: var(--Light-gray);
@@ -59,10 +59,27 @@ html, body {
     margin-bottom: 1rem;
     font-size: 1.7rem;
     color: var(--Dark-blue);
+    font-weight: 700;
 }
 
 .info__instruction {
     padding: 0rem 1rem 1rem 1rem;
     font-size: 1.25rem;
     color: var(--Grayish-blue);
+    font-weight: 400;
+}
+
+@media all and (max-width:375px) {
+    .card {
+        width: 80vw;
+        height: 65vh;
+    }
+
+    .info__heading {
+        font-size: 1.5rem;
+    }
+    
+    .info__instruction {
+        font-size: 1.4rem;
+    }
 }
