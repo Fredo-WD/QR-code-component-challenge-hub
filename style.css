@@ -83,3 +83,10 @@ html, body {
         font-size: 1.4rem;
     }
 }
+
+@media all and (max-width:1880px) {
+    .card {
+        height: 58vh;
+        width: 18vw;
+    }
+}
