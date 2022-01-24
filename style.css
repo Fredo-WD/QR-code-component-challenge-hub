@@ -27,8 +27,8 @@ html, body {
 }
 
 .card {
-    height: 50vh;
-    width: 17vw;
+    height: 60vh;
+    width: 25vw;
     background-color: var(--White);
     padding: 1rem;
     border-radius: 1rem;
