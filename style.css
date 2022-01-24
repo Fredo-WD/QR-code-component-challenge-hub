@@ -64,7 +64,7 @@ html, body {
 
 .info__instruction {
     padding: 0rem 1rem 1rem 1rem;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: var(--Grayish-blue);
     font-weight: 400;
 }
@@ -84,7 +84,7 @@ html, body {
     }
 }
 
-@media all and (max-width:1880px) {
+@media all and (min-width:1880px) {
     .card {
         height: 58vh;
         width: 18vw;
